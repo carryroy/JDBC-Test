@@ -6,18 +6,53 @@ import java.util.Date;
  * Created by wb-kdf229912 on 2017/3/22.
  */
 public class Goddess {
-
+    /**
+     * 女神编号
+     */
     private Integer id;
+    /**
+     * 女神名字
+     */
     private String user_name;
+    /**
+     * 女神性别
+     */
     private Integer sex;
+    /**
+     * 女神年龄
+     */
     private Integer age;
+    /**
+     * 女神生日
+     */
     private Date birthday;
+    /**
+     * 女神邮箱
+     */
     private String email;
+    /**
+     * 女神手机
+     */
     private String mobile;
+    /**
+     * 创建人
+     */
     private String create_user;
+    /**
+     * 创建时间
+     */
     private Date create_date;
+    /**
+     * 修改人
+     */
     private String update_user;
+    /**
+     * 修改时间
+     */
     private Date update_date;
+    /**
+     * 是否删除
+     */
     private Integer isdel;
 
     public Integer getId() {
