@@ -71,4 +71,5 @@ public class GoddessDao {
         preparedStatement.setInt(9,goddess.getId());
         preparedStatement.execute();
     }
+
 }
